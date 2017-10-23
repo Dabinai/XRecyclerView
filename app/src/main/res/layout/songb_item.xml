@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/songb_item_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/geming"
+        android:text="歌名："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/songb_item_image"
+        android:layout_toRightOf="@+id/songb_item_image"
+        android:layout_toEndOf="@+id/songb_item_image"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+
+    <TextView
+        android:id="@+id/song_name"
+        android:text="我我我"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/geming"
+        android:layout_alignBottom="@+id/geming"
+        android:layout_toRightOf="@+id/geming"
+        android:layout_toEndOf="@+id/geming"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp" />
+
+    <TextView
+        android:id="@+id/zuozhe"
+        android:text="作者："
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/songb_item_image"
+        android:layout_alignLeft="@+id/geming"
+        android:layout_alignStart="@+id/geming" />
+
+    <TextView
+        android:id="@+id/song_author"
+        android:text="妮妮"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/zuozhe"
+        android:layout_alignBottom="@+id/zuozhe"
+        android:layout_alignLeft="@+id/song_name"
+        android:layout_alignStart="@+id/song_name" />
+</RelativeLayout>
